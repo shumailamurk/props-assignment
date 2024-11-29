@@ -3,7 +3,7 @@ import React from 'react';
 import Propsy from './propsy';
 import { useState } from 'react';
 
-const page = () => {
+const Page = () => {
   const [name, setName] = useState({
     name: "",
     favdish: "",
@@ -31,4 +31,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
